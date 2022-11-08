@@ -9,37 +9,39 @@
       rel="icon"
       href="/imgs/service_question_information_help_icon_230005.png"
     />
+    <link rel="stylesheet" href="/style.css">
     <title>Survey Project 2022</title>
   </head>
   <body>
     <main>
+        <h1>Survey Project 2022</h1>
       <form action="">
         <div class="form-control">
-          <label for="full-name">Name</label><br />
-          <input type="text" id="full-name" name="full-name" />
+          <label for="full-name">1. Name</label><br />
+          <input type="text" id="full-name" name="full-name" class="input"/>
         </div>
         <div class="form-control">
-          <label for="email">Email Address</label><br />
-          <input type="email" id="email" name="email" />
+          <label for="email">2. Email Address</label><br />
+          <input type="email" id="email" name="email" class="input"/>
         </div>
         <div class="form-control">
-          <label for="address">Residential address</label><br />
-          <input type="text" id="address" name="address" />
+          <label for="address">3. Residential address</label><br />
+          <input type="text" id="address" name="address" class="input"/>
         </div>
         <div class="form-control">
-          <label for="dob">Date of Birth</label><br />
+          <label for="dob">5. Date of Birth</label><br />
           <input type="date" id="dob" name="dob" />
         </div>
         <div class="form-control">
-        <label for="gender">Gender</label><br>
+        <label for="gender">6. Gender</label><br>
           <input type="radio" id="male" name="gender" value="Male" />
           <label for="html">Male</label><br />
           <input type="radio" id="css" name="gender" value="Female" />
           <label for="css">Female</label><br />
         </div>
         <div class="form-control">
-            <label for="opsystems">Which of these Operating Systems is available to you?</label><br>
-            <input list="opsystems" name="opsystems">
+            <label for="opsystems">7. Which of these Operating Systems is available to you?</label><br>
+            <input list="opsystems" name="opsystems" class="input">
                 <datalist id="opsystems">
                   <option value="Linux">
                   <option value="Window">
@@ -48,7 +50,7 @@
         </div>
         <div class="form-control">
             <label>
-                Languages and Framework Known
+                8. Languages and Framework Known
                 <small>(select all that apply)</small>
             </label><br>
             <label for="inp1"><input type="checkbox" name="inp">Javascript</input></label><br>
@@ -58,7 +60,7 @@
             <label for="inp5"><input type="checkbox" name="inp">C#</input></label><br>
         </div>
         <div class="form-control">
-            <label for="social-media">Choose your preferred social media</label><br>
+            <label for="social-media">9. Choose your preferred social media</label><br>
             <select id="social-media" name="social-media" size="1">
               <option value="twitter">Twitter</option>
               <option value="saab">Facebook</option>
@@ -67,11 +69,11 @@
             </select>
         </div>
         <div class="form-control">
-            <label for="comments">Comment:</label><br>
+            <label for="comments">10. Comment:</label><br>
             <textarea name="comments" id="comments"></textarea>
         </div>
         <div class="form-control">
-            <button type="submit" value="submit">Submit</button>
+            <button type="submit" value="submit" class="input">Submit</button>
         </div>
       </form>
     </main>
